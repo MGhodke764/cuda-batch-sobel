@@ -1,0 +1,22 @@
+# Build files
+build/
+cuda_sobel
+
+# Generated input dataset
+data/images/
+
+# Generated output images
+results/edges/
+
+# Execution artifacts
+submission_artifacts/
+cuda_sobel_execution_artifacts.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/

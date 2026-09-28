@@ -1,0 +1,19 @@
+CUDA Batch Sobel Edge Detection
+================================
+GPU: Tesla T4
+Compute capability: 7.5
+Input directory: data/images
+Output directory: results/edges
+Images processed: 500
+Image size: 256 x 256
+Total pixels: 32768000
+CUDA block: 16 x 16
+Device memory per buffer: 31.25 MiB
+
+
+Execution completed successfully.
+GPU kernel time: 112.5611 ms
+Total processing time: 120.1674 ms
+Average kernel time/image: 0.2251 ms
+Output images: results/edges
+Performance CSV: "results/edges/performance.csv"
